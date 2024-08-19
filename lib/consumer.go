@@ -33,7 +33,8 @@ func KafkaConsumer(config configs.KafkaConfigType) *kafka.Consumer {
     })
 
     if err != nil {
-        panic(err)
+        log.Printf("Connect Broker Error: %v", err)
+		return nil
     }
 
     return c
