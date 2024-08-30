@@ -9,6 +9,6 @@ import (
 func main() {
 	godotenv.Load(".env")
 	configs.SetKafkaConfig()
-	
-	lib.Consumer()
+
+	lib.ConsumeExOrder()
 }
