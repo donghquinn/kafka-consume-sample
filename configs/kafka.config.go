@@ -7,8 +7,8 @@ import (
 
 type KafkaConfigType struct {
 	BootstrapServers string
-	GroupId string
-	Topic string
+	GroupId          string
+	Topic            string
 }
 
 var KafkaConfig KafkaConfigType

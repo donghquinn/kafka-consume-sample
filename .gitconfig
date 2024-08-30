@@ -1,0 +1,7 @@
+[includeIf “gitdir: ~/특정디렉토리경로”]
+path = .gitconfig-dong
+
+
+[user]
+name = donghquinn
+email = ehdgus1524@gmail.com
