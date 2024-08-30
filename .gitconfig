@@ -1,5 +1,5 @@
-[includeIf “gitdir: ~/특정디렉토리경로”]
-path = .gitconfig-dong
+[includeIf “gitdir: ~/.ssh/]
+path = .config
 
 
 [user]
